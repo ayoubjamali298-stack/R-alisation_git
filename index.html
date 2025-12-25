@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="result"></div>
+    <button id="botona">click</button>
+    <script>
+          let btona = document.getElementById("botona");
+        let O = 
+        [
+            "The best is yet to come.",
+            "Dream big, work hard.",
+            "Keep pushing forward."
+        ];
+        let resula = document.getElementById("result");
+        btona.addEventListener("click",() => 
+        {
+          let randomNum = Math.floor(Math.random() * O.length ) ;
+          if(randomNum === O.length )
+          {
+            randomNum = randomNum - 1 ;
+          }
+          resula.innerHTML = `>>>${O[ randomNum ]}<<<` ;
+        });
+    </script>
+</body>
+
+</html>

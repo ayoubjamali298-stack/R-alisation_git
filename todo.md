@@ -1,0 +1,4 @@
+ - [ ] Create quotes.html
+ - [ ] Add JavaScript to display random quotes
+ - [ ] Add a button to generate a new quote
+ - [ ] Test functionality
